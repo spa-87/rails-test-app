@@ -32,6 +32,11 @@ group :development, :test do
 end
 
 group :development do
+  gem 'capistrano', '~> 3.10', :require => false
+  gem 'capistrano-bundler', '~> 1.3', :require => false
+  gem 'capistrano-rails', '~> 1.3', :require => false
+  gem 'capistrano-sidekiq', '~> 0.20', :require => false
+  gem 'capistrano3-puma', '~> 3.1', :require => false
   gem 'listen', '~> 3.0.5'
   gem 'letter_opener'
 end

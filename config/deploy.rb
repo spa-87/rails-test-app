@@ -7,4 +7,4 @@ set :repo_url, "https://github.com/spa-87/rails-test-app.git"
 set :user, "deploy"
 set :deploy_to, "/home/#{fetch(:user)}/apps/#{fetch(:application)}"
 
-set :nginx_use_ssl, true
+#set :nginx_use_ssl, true
